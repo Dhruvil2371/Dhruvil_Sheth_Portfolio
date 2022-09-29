@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-header,
+.dark_app {
+  background-color: wheat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: rgba(10, 10, 0, 0.886);
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.dark_app {
+  background-color: rgba(24, 24, 24, 0.95);
+  background-image: linear-gradient(
+    -225deg,
+    black 0%,
+    gray 29%,
+    silver 67%,
+    black 100%
+  );
+}
+.App-link {
+  color: #61dafb;
+}
+
+.App-image {
+  border-color: black;
+  border-width: 2px 2px 3px 3px;
+  border-style: solid;
+  box-shadow: 1px 1px 1px 1px #aaaaaa;
+  padding: 2px 2px 1px 2px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.23em;
+  margin-block-end: 0.23em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

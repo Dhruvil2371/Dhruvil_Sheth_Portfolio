@@ -1,0 +1,33 @@
+.skill,
+.dark_skill {
+  background-color: white;
+  min-height: 40vh;
+  position: relative;
+  margin: 0px;
+}
+
+.dark_skill {
+  background-color: rgba(0, 0, 0, 0.781);
+  color: aliceblue;
+}
+
+.p_header {
+  position: relative;
+}
+
+.figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.figurea {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  position: relative;
+}

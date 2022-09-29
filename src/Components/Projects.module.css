@@ -1,0 +1,42 @@
+.projects {
+  background-color: wheat;
+  min-height: 60vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.dark_projects {
+  background-color: rgba(0, 0, 0, 0.9);
+  min-height: 60vh;
+  color: aliceblue;
+}
+
+.picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 30px 2em;
+  border-color: white;
+  border-width: 5px 5px 50px 5px;
+  border-style: solid;
+  box-shadow: 5px 5px 5px 5px #aaaaaa;
+  padding: 20px 20px 10px 20px;
+  background-color: rgb(178, 219, 255);
+  max-width: 30em;
+  height: 20em;
+}
+
+.picture img {
+  max-width: 300px;
+  height: 20em;
+}
+
+figcaption {
+  margin-top: 5px;
+  font-size: 1.5em;
+  font-weight: 600;
+}
